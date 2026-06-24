@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:foucos="http://www.w3.org/1999/xhtml" xmlns:focous="http://www.w3.org/1999/xhtml"
+      xmlns:hover="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,11 +22,17 @@
     <!-- Exercise 2 -->
     <div class="p-3 bg-white ">Colorful Alter Boxes
         <!--Success (Green)-->
-        <div class="p-4 bg-green-700  border-3 dashed-border border-slate-200 rounded-lg text-font-bold text-center"> Success</div>
+        <div class="p-4 bg-green-700  border-3 dashed-border border-slate-200 rounded-lg text-font-bold text-center">
+            Success
+        </div>
         <!--Warning (Yellow)-->
-        <div class=" bg-4  bg-yellow-700  border-2 dashed-border border-slate-200 rounded-lg text-bold text-center"> Warning</div>
+        <div class=" bg-4  bg-yellow-700  border-2 dashed-border border-slate-200 rounded-lg text-bold text-center">
+            Warning
+        </div>
         <!--Danger(Red)-->
-        <div class=" bg-4  bg-red-700 border-1 dashed-border border-slate-200 rounded-lg  text-bold text-center"> Danger</div>
+        <div class=" bg-4  bg-red-700 border-1 dashed-border border-slate-200 rounded-lg  text-bold text-center">
+            Danger
+        </div>
     </div>
 
     <!--Exercise 3-->
@@ -73,6 +80,30 @@
         </div>
 
     </div>
+
+    <!--Exercise 5-->
+    <div class="mt-6 max-w -sm mx-auto">
+        <h4 class="text-gray-500 text-sm">Interactive Buttons</h4>
+        <div class="flex gap-4">
+            <button class=" bg-blue-600 text-white px-4 py-2 rounded
+                 hover:bg-blue-700
+                 transition-colors durition-300
+                  focous:ring-2 foucos:ring-blue-400">
+                Primary
+            </button>
+            <button class=" bg-blue-600 text-white px-4 py-2 rounded
+                hover:bg-blue-700
+                transition-colors durition-300
+                focous:ring-2 foucos:ring-blue-400">
+                Secondary
+            </button>
+            <button class=" bg-blue-600 text-white px-4 py-2 rounded
+        hover:bg-blue-700
+                 transition-colors durition-300
+                  focous:ring-2 foucos:ring-blue-400">
+                Outline
+            </button>
+        </div>
     </div>
 
 
