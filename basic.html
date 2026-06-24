@@ -18,7 +18,7 @@
         </div>
     </section>
 
-    <!-- ... Exercise 2... -->
+    <!-- Exercise 2 -->
     <div class="p-3 bg-white ">Colorful Alter Boxes
         <!--Success (Green)-->
         <div class="p-4 bg-green-700  border-3 dashed-border border-slate-200 rounded-lg text-font-bold text-center"> Success</div>
@@ -28,8 +28,31 @@
         <div class=" bg-4  bg-red-700 border-1 dashed-border border-slate-200 rounded-lg  text-bold text-center"> Danger</div>
     </div>
 
-    <!--
+    <!--Exercise 3-->
 
+    <div class="max-w-sm mx-auto specify-center">
+
+        <div class="shadow-md bg-white p-4 rounded">
+            <h2 class="font-bold text-lg mb-2">Simple Card with Shadow</h2>
+            <p>Description: I am Existed by do this exercises 🏎️🏎️</p>
+
+            <div id="extra" class="hidden mt-2 text-gray-700">
+                This is the expanded content revealed when clicking "Read More".
+                It can contain additional details, images, or any extra information
+                you want to show the user on demand.
+            </div>
+
+            <button
+                    onclick="
+        const el = document.getElementById('extra');
+        el.classList.toggle('hidden');
+        this.textContent = el.classList.contains('hidden') ? 'ReadMore' : 'Show Less';
+      "
+                    class="mt-3 bg-blue-600 text-white px-4 py-2 rounded">
+                ReadMore
+            </button>
+        </div>
+    </div>
 </div>
 </body>
 </html>
