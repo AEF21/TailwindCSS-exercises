@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:foucos="http://www.w3.org/1999/xhtml" xmlns:focous="http://www.w3.org/1999/xhtml"
-      xmlns:hover="http://www.w3.org/1999/xhtml">
+      xmlns:hover="http://www.w3.org/1999/xhtml" xmlns:http="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -104,6 +104,34 @@
                 Outline
             </button>
         </div>
+
+
+        <!--Exercise 6-->
+        <div class="max-w-4xl mx-auto mt-6">
+            <h4 class="text-gray-500 text-sm mb-2">Responsive Two-Column Layout</h4>
+
+            <!--grid is important and using center here making sure that exist and not be overwritten-->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+
+                <!-- Text First -->
+                <div>
+                    <h2 class="text-2xl font-bold mb-2">Text</h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        I always wanted to play football when I was younger,
+                        but it was not possible in our community at that time.
+                        So I played at home with my siblings instead.
+                        I used to love running, but I don't do it anymore.
+                    </p>
+                </div>
+
+                <!-- Image After -->
+                <img src="https://picsum.photos/400/300"
+                     alt="Football"
+                     class="w-full rounded-lg object-cover">
+
+            </div>
+        </div>
+
     </div>
 
 
