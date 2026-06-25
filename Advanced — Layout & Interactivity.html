@@ -246,6 +246,33 @@
 
 
 
+
+    <!--Exercise 19-->
+    <div class="p-6 max-w-sm">
+        <p class="font-semibold mb-4">Form Validation UI</p>
+
+        <!-- input med peer -->
+        <input
+                type="email"
+                placeholder="Enter email"
+                required
+                class="peer block w-full rounded-md px-3 py-1.5 text-base
+           border border-gray-300
+           outline-none
+           invalid:border-red-500
+           focus:invalid:ring-2
+           focus:invalid:ring-red-500
+           sm:text-sm/6"
+        />
+
+        <!-- felmeddelande — dolt tills peer är focused + invalid -->
+        <p class="mt-1 text-sm text-red-500
+            invisible
+            peer-focus:peer-invalid:visible">
+            Please enter a valid email address.
+        </p>
+
+    </div>
 </div>
 </body>
 </html>
