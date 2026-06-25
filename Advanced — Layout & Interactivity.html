@@ -173,7 +173,8 @@
     </div>
     <!--Exercise 16-->
     <!-- group on the card, overflow-hidden to clip the hidden button -->
-    <div class="group relative overflow-hidden rounded-xl border border-gray-200 w-64 cursor-pointer"> Group-Hover Reveal
+    <div class="group relative overflow-hidden rounded-xl border border-gray-200 w-64 cursor-pointer"> Group-Hover
+        Reveal
 
         <!-- Product image -->
         <img
@@ -201,7 +202,23 @@
         </div>
 
     </div>
-    <!-- ... Add more sections here ... -->
+    <!--Exercise 17-->
+    <!-- 1. peer på checkboxen -->
+    <input type="checkbox" id="terms1" class="peer">Peer-State Toggle (Pure CSS)
+
+    <!-- 2. Label -->
+    <label for="terms1" class="ml-2 text-sm cursor-pointer">
+        I have read and agree to the terms and conditions.
+    </label>
+
+    <!-- 3. Submit — direkt syskon efter input -->
+    <span class="w-4 h4 border-rounded border-grey-400"></span>
+    <button class="px-4 py-2 rounded text-white
+                 bg-gray-400 opacity-50 pointer-events-none
+                 peer-checked:bg-green-600 peer-checked:opacity-100
+                 peer-checked:pointer-events-auto peer-checked:cursor-pointer">
+        Submit
+    </button>
 
 </div>
 </body>
